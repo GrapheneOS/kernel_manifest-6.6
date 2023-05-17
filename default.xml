@@ -8,13 +8,8 @@
   <project path="build/kernel" name="kernel/build" >
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
     <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
-    <linkfile src="build.sh" dest="build/build.sh" />
-    <linkfile src="build_abi.sh" dest="build/build_abi.sh" />
     <linkfile src="build_test.sh" dest="build/build_test.sh" />
-    <linkfile src="build_utils.sh" dest="build/build_utils.sh" />
     <linkfile src="config.sh" dest="build/config.sh" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="_setup_env.sh" dest="build/_setup_env.sh" />
     <linkfile src="multi-switcher.sh" dest="build/multi-switcher.sh" />
     <linkfile src="abi" dest="build/abi" />
     <linkfile src="static_analysis" dest="build/static_analysis" />
