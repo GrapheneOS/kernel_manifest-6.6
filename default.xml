@@ -10,9 +10,6 @@
     <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="build_test.sh" dest="build/build_test.sh" />
     <linkfile src="config.sh" dest="build/config.sh" />
-    <linkfile src="multi-switcher.sh" dest="build/multi-switcher.sh" />
-    <linkfile src="abi" dest="build/abi" />
-    <linkfile src="static_analysis" dest="build/static_analysis" />
   </project>
   <project path="common" name="kernel/common" revision="android-mainline" />
   <project path="kernel/common-patches" name="kernel/common-patches" >
