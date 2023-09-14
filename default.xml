@@ -35,5 +35,6 @@
   <project path="external/stardoc" name="platform/external/stardoc" />
   <project path="external/python/absl-py" name="platform/external/python/absl-py" />
   <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" />
+  <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" />
   <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" />
 </manifest>
