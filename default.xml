@@ -15,7 +15,7 @@
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="WORKSPACE.bzlmod" />
   </project>
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="ddk" />
-  <project path="common" name="kernel/common" revision="android15-6.6-lts" />
+  <project path="common" name="kernel_common_6.6" remote="grapheneos" />
   <project path="kernel/tests" name="kernel/tests" />
   <project path="kernel/configs" name="kernel/configs"/>
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android15-6.6" />
