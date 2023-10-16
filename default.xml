@@ -8,8 +8,6 @@
   <project path="build/kernel" name="kernel/build" groups="ddk" >
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
     <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
-    <linkfile src="build_test.sh" dest="build/build_test.sh" />
-    <linkfile src="config.sh" dest="build/config.sh" />
   </project>
   <project path="common" name="kernel/common" revision="android-mainline" />
   <project path="kernel/common-patches" name="kernel/common-patches" >
