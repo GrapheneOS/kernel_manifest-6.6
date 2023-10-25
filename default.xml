@@ -22,7 +22,7 @@
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk" />
   <project path="prebuilts/rust" name="platform/prebuilts/rust" revision="main-kernel" clone-depth="1" />
-  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts/" clone-depth="1" />
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" groups="ddk" />
