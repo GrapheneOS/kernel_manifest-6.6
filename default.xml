@@ -34,6 +34,6 @@
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="ddk" />
   <project path="external/stardoc" name="platform/external/stardoc" groups="ddk" />
   <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk" />
-  <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" />
+  <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" groups="ddk" />
   <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" />
 </manifest>
