@@ -32,6 +32,8 @@
 
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="ddk" />
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="ddk" />
+  <project path="external/libcap-ng" name="platform/external/libcap-ng"/>
+  <project path="external/libcap" name="platform/external/libcap"/>
   <project path="external/stardoc" name="platform/external/stardoc" groups="ddk" />
   <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk" />
   <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" groups="ddk" />
