@@ -28,7 +28,7 @@
 
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" groups="ddk" />
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" revision="main-kernel" clone-depth="1" groups="ddk" />
-  <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/ndk-r26" name="toolchain/prebuilts/ndk/r26" clone-depth="1" groups="ddk" />
 
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="ddk" />
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="ddk" />
