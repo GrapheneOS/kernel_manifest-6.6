@@ -35,6 +35,7 @@
   <project path="external/libcap" name="platform/external/libcap"/>
   <project path="external/stardoc" name="platform/external/stardoc" groups="ddk" />
   <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk" />
+  <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" revision="main-kernel" groups="ddk" />
   <project path="external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" groups="ddk" />
   <!-- implicit dep for bzlmod -->
   <project path="external/bazelbuild-apple_support" name="platform/external/bazelbuild-apple_support" groups="ddk" />
