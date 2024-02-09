@@ -48,7 +48,7 @@
   <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" groups="ddk" />
   <project path="external/bazelbuild-rules_pkg" name="platform/external/bazelbuild-rules_pkg" groups="ddk" />
   <project path="external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" groups="ddk"/>
-  <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" />
+  <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" groups="ddk"/>
 
   <!-- dependencies used to build toolchain from sources -->
   <project path="external/pigz" name="platform/external/pigz" groups="ddk"/>
