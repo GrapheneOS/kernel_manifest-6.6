@@ -10,8 +10,6 @@
     <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel" />
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="WORKSPACE.bzlmod" />
-    <linkfile src="kleaf/bzlmod/default_kernel_toolchain_ext.bzl" dest="build/kernel_toolchain_ext.bzl" />
-    <linkfile src="kleaf/bzlmod/empty_BUILD.bazel" dest="build/BUILD.bazel" />
   </project>
   <project path="common" name="kernel/common" revision="android15-6.6" />
   <project path="kernel/common-patches" name="kernel/common-patches" >
