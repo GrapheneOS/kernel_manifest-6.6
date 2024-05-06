@@ -11,6 +11,7 @@
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel" />
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="WORKSPACE.bzlmod" />
   </project>
+  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="ddk" />
   <project path="common" name="kernel/common" revision="android15-6.6" />
   <project path="kernel/common-patches" name="kernel/common-patches" >
       <linkfile src="android-mainline" dest="common/patches" />
@@ -31,22 +32,22 @@
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" revision="main-kernel" clone-depth="1" groups="ddk" />
   <project path="prebuilts/ndk-r26" name="toolchain/prebuilts/ndk/r26" clone-depth="1" groups="ddk" />
 
-  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="ddk" />
-  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="ddk" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng"/>
   <project path="external/libcap" name="platform/external/libcap"/>
-  <project path="external/stardoc" name="platform/external/stardoc" groups="ddk" />
-  <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk" />
-  <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" revision="main-kernel" groups="ddk" />
-  <project path="external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" groups="ddk" />
-  <!-- implicit dep for bzlmod -->
-  <project path="external/bazelbuild-apple_support" name="platform/external/bazelbuild-apple_support" groups="ddk" />
-  <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" groups="ddk" />
-  <project path="external/bazelbuild-rules_java" name="platform/external/bazelbuild-rules_java" groups="ddk"/>
-  <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" groups="ddk" />
-  <project path="external/bazelbuild-rules_pkg" name="platform/external/bazelbuild-rules_pkg" groups="ddk" />
-  <project path="external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" groups="ddk"/>
-  <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" groups="ddk"/>
+
+  <!-- deps for for bzlmod -->
+  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="ddk-external" />
+  <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" revision="main-kernel" groups="ddk-external" />
+  <project path="external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" groups="ddk-external" />
+  <project path="external/bazelbuild-apple_support" name="platform/external/bazelbuild-apple_support" groups="ddk-external" />
+  <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" groups="ddk-external" />
+  <project path="external/bazelbuild-rules_java" name="platform/external/bazelbuild-rules_java" groups="ddk-external"/>
+  <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" groups="ddk-external" />
+  <project path="external/bazelbuild-rules_pkg" name="platform/external/bazelbuild-rules_pkg" groups="ddk-external" />
+  <project path="external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" groups="ddk-external" />
+  <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" groups="ddk-external" />
+  <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk-external" />
+  <project path="external/stardoc" name="platform/external/stardoc" />
 
   <!-- dependencies used to build toolchain from sources -->
   <project path="external/lz4" name="platform/external/lz4" groups="ddk"/>
