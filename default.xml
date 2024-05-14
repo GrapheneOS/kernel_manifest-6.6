@@ -37,7 +37,7 @@
 
   <!-- deps for for bzlmod -->
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="ddk-external" />
-  <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" revision="main-kernel" groups="ddk-external" />
+  <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" groups="ddk-external" />
   <project path="external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" groups="ddk-external" />
   <project path="external/bazelbuild-apple_support" name="platform/external/bazelbuild-apple_support" groups="ddk-external" />
   <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" groups="ddk-external" />
