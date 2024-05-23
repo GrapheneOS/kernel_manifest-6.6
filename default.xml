@@ -3,7 +3,7 @@
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="main" remote="aosp" sync-j="4" />
 
-  <superproject name="kernel/superproject" remote="aosp" revision="common-android15-6.6" />
+  <superproject name="kernel/superproject" remote="aosp" revision="common-android15-6.6-lts" />
 
   <project path="build/kernel" name="kernel/build" groups="ddk" >
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
@@ -12,7 +12,7 @@
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="WORKSPACE.bzlmod" />
   </project>
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="ddk" />
-  <project path="common" name="kernel/common" revision="android15-6.6" />
+  <project path="common" name="kernel/common" revision="android15-6.6-lts" />
   <project path="kernel/common-patches" name="kernel/common-patches" >
       <linkfile src="android-mainline" dest="common/patches" />
   </project>
