@@ -18,6 +18,7 @@
   <project path="common" name="kernel_common-6.6" remote="grapheneos" />
   <project path="kernel/tests" name="kernel/tests" />
   <project path="kernel/configs" name="kernel/configs"/>
+  <project path="common-modules/virtio-media" name="platform/external/virtio-media" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android15-6.6" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="ddk" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="ddk" />
