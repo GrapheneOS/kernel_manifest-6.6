@@ -3,7 +3,7 @@
   <remote  name="aosp" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/" />
   <remote  name="grapheneos"
     fetch="https://github.com/GrapheneOS/"
-    revision="refs/heads/15" />
+    revision="refs/tags/2025020500" />
   <default revision="main-kernel-build-2024" remote="aosp" sync-j="4" />
 
   <superproject name="kernel/superproject" remote="aosp" revision="common-android15-6.6-lts" />
